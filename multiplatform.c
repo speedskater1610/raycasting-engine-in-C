@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include <math.h>
 #include <time.h>
 
@@ -24,9 +25,6 @@
 #define SCREEN_WIDTH  120
 #define SCREEN_HEIGHT 40
 
-#define bool int
-#define true 1
-#define false 0
 
 char map[] =
     "11111111111111111111111111111111"
